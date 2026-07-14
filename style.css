@@ -162,3 +162,107 @@ display: list-item;
     font-weight: bold;
     font-size:20px ;
 }
+AI sect
+.past-highlights {
+    padding: 100px 20px;
+    background: #f8fafc;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.past-highlights h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #64748b;
+    font-size: 1.1rem;
+    margin-bottom: 60px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-bottom: 70px;
+}
+
+.stat-card {
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+}
+
+.stat-card h3 {
+    font-size: 2.6rem;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.stat-card p {
+    color: #475569;
+}
+
+.companies-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0f172a;
+}
+
+.company-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.company-list li {
+    background: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.testimonial-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    gap: 25px;
+    margin-bottom: 60px;
+}
+
+.testimonial-container blockquote {
+    background: white;
+    padding: 30px;
+    border-left: 5px solid #2563eb;
+    border-radius: 10px;
+    font-style: italic;
+    color: #475569;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+}
+
+.testimonial-container span {
+    display: block;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 600;
+    color: #0f172a;
+}
+
