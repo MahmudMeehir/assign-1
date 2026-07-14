@@ -22,7 +22,7 @@ nav {
     font-weight: bold;
     font-size:20px ;
     color: white;
-    border: none;
+    
 }
 
 ul {
@@ -34,4 +34,47 @@ ul {
 }
 ul li a {
     text-decoration: none;
+}
+ul li:hover {
+    background-color: brown;
+}
+
+.container1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.banner {
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    background-color: black;
+    
+}
+.top {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+    padding: 100px;
+}
+.art1 {
+    color: white;
+    margin: 80px;
+    text-align: center;
+}
+
+.registerbtn {
+    margin: 350px;
+    margin-left: 590px;
+}
+.speak {
+    font-size: 3rem;
+    margin: 80px;
+    margin-left: 430px;
 }
