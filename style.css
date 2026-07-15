@@ -265,6 +265,7 @@ AI sect
     font-weight: 600;
     color: #0f172a;
 }
+
 footer {
     margin-top: 100px;
     background-color: rgb(45, 45, 168);
@@ -275,8 +276,7 @@ footer {
 }
 .socials {
      display: flex;
-    gap: 20px;
-    
+    gap: 20px;  
 }
 .socials i{
     font-size: 40px;
