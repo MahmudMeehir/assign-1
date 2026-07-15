@@ -1,0 +1,3 @@
+Prompts used:
+-(UI image inserted)"i need you to make a relevant section for me based on DevConf2026 Theme.it has to explain one of this compartments (Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board)
+-"help me design the css part as well"
